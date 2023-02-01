@@ -1,0 +1,15 @@
+- name: Employees
+  size: small
+  columns: ['id', 'first_name', 'last_name', 'email', 'gender', 'address_street', 'address_city', 'address_country', 'job_title', 'start_date', 'end_date']
+  schema: |
+    id INTEGER PRIMARY KEY,
+    first_name VARCHAR(100),
+    last_name VARCHAR(100),
+    email VARCHAR(100),
+    gender VARCHAR(100),
+    address_street VARCHAR(100),
+    address_city VARCHAR(100),
+    address_country VARCHAR(100),
+    job_title VARCHAR(100),
+    start_date DATE,
+    end_date DATE
